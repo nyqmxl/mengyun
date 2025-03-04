@@ -1,11 +1,5 @@
 
 
-"""
-漏洞列表：
-1.  客户端机制未验证
-"""
-
-
 from fastapi import FastAPI, Request, WebSocket, HTTPException
 from fastapi.responses import JSONResponse
 from pymongo import MongoClient
